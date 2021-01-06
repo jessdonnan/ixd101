@@ -178,3 +178,70 @@ body {
     display: block;
     margin: auto; 
     max-width: 100%; }
+
+    /*---------------------------- FOOTER -----------------------------*/
+footer {
+  text-align: center;
+  font-size: 0.707em;
+  padding: 2em 0 8em 0;
+  margin: auto;
+  color: #fafafa;
+  background: #000000;
+}
+
+.connections{
+  position: relative;
+  margin: 0 auto;
+}
+.connections ul{
+  margin: 0;
+  padding: 0;
+}
+.connections li{
+  margin: 0 10px;
+  padding: 0;
+  list-style: none;
+  display: inline-block;  
+}
+.connections a:link{
+  border-bottom: none;
+}
+.connections img,
+.connections svg{
+  border: none;
+}
+.connections a:hover img,
+.connections a:hover svg{
+  border-bottom: none;}
+
+.connections svg {
+      margin: 2em auto;}
+
+.connections a:hover svg path {
+      fill: #333;
+      transition: all 0.2s ease-in-out;}
+
+footer .connections a:hover svg path {
+        fill:  #103254;
+        transition: all 0.2s ease-in-out;}
+
+        
+  
+@media only screen and (max-width: 600px) {
+  section {    
+    width: 90%;
+    margin: auto;}
+
+header {
+      width: 90%;
+      margin-left: .5em;
+      }
+
+header h1 {font-size: 3.25em;}
+header p {font-size: 1.25em;}
+
+/* .portfolio {grid-template-columns: repeat(2, minmax(150px, 1fr)); }*/
+
+}
+
+
