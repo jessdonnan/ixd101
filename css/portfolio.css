@@ -17,7 +17,7 @@ body {
   
   /*---- ESTABLISH YOUR OWN TYPOGRAPHIC HIERARCHY WHICH SHOULD BE BASED ON YOUR FONT CHOICES ----*/
   h1 {font-size: 4em; margin-bottom: .3em;}
-  h2 {font-size: 2.75em; margin: 1em 0; color: #439ff6}
+  h2 {font-size: 2.75em; margin: 1em 0; color: #7dc2af}
   h3 {font-size: 1.90em; margin: 3em 0 1em 0}
   
   p {font-size: 1.25em;
@@ -45,7 +45,7 @@ body {
     padding-bottom: 1em;
   }
   
-  .highlight {color: #439ff6}
+  .highlight {color: #92dbc7}
   
   /*---------------- PORTFOLIO SECTION ------------------*/
   
@@ -100,7 +100,7 @@ body {
   
   /*--------------------- STYLING LINKS -----------------*/
   a {
-    color: #439ff6;
+    color: #7dc2af;
     text-decoration: none;
   }
   
@@ -118,7 +118,7 @@ body {
   }
     
   .background-colour a {
-    color: rgb(150, 230, 254);
+    color: #bcdbd2);
     text-decoration: none;}
   
   .background-colour a:hover {
@@ -155,10 +155,10 @@ body {
     background: none;}
   
   nav a:link {
-    color: #439ff6;}
+    color: #7dc2af;}
   
   nav a:visited {
-    color: #439ff6;}
+    color: #7dc2af;}
   
   nav a:hover {
     border-bottom: none;
@@ -169,7 +169,7 @@ body {
     font-size: 1.8em;
     font-weight: bold;
     text-align: left;
-    padding-right: 30vw;
+    padding-right: 15vw;
   }
   
   /* ------------------- IMAGES -------------------- */
