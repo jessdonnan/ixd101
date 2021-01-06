@@ -23,7 +23,8 @@ body {
     line-height: 1.5;
     margin-bottom: 1em;
     font-weight: 200;
-    text-align: justify;}
+    text-align: justify;
+    padding-bottom: 5px;}
   
   header {
     width: 70%;
