@@ -1,0 +1,179 @@
+/* ------------------ GLOBAL STYLING --------------------*/
+body {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    color: #333;}
+  
+  section {    
+    width: 80%;
+    max-width: 800px;
+    margin: auto;}
+  
+  
+  h1, h2, {
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+  
+  /*---- ESTABLISH YOUR OWN TYPOGRAPHIC HIERARCHY WHICH SHOULD BE BASED ON YOUR FONT CHOICES ----*/
+  h1 {font-size: 4em; margin-bottom: .3em;}
+  h2 {font-size: 2.75em; margin: 1em 0; color: #439ff6}
+  h3 {font-size: 1.90em; margin: 3em 0 1em 0}
+  
+  p {font-size: 1.25em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    font-weight: 200;}
+  
+  header {
+    width: 80%;
+    font-family: bely-display, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    color: #fafafa;}
+  
+  header h1 { 
+    margin: 1em 0;
+    font-size: 5.25em;
+    font-weight: bold;
+    line-height: 1.2;
+    }
+  header h2 {
+    font-family: proxima-nova, sans-serif;
+    font-size: 2.75em;
+    line-height: 1.5;
+    padding-bottom: 1em;
+  }
+  
+  .highlight {color: #439ff6}
+  
+  /*---------------- PORTFOLIO SECTION ------------------*/
+  
+ /* .portfolio h2 { max-width: 960px; margin: 3em auto;} */
+  
+ .portfolio{
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-gap: 10px;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px auto); */
+  
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) ) ; 
+  }
+   
+  .portfolio h1 {
+    text-align: center}
+  
+  li {
+    position: relative;}
+  
+  .portfolio-img {;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .portfolio-title {
+    font-family: proxima-nova, sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 0.85em;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+  }
+  
+  .portfolio-title:hover {
+    background: #333;
+    color: #fff
+  }
+  
+  /*---------------- BACKGROUNDS ----------------*/
+  .background-colour {
+      padding: 4em 0;
+      background: #103254;
+      color: #fafafa;}
+  
+  
+  /*--------------------- STYLING LINKS -----------------*/
+  a {
+    color: #439ff6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #103254;
+    border-bottom: 1px dotted;}
+  
+  .biog a {
+      color: #fafafa;
+      border-bottom: 1px dotted;
+    }
+    
+  .biog a:hover {
+      color: #103254;
+  }
+    
+  .background-colour a {
+    color: rgb(150, 230, 254);
+    text-decoration: none;}
+  
+  .background-colour a:hover {
+    color: #fafafa;
+    border-bottom: 1px dotted;}
+  
+  .portfolio a {
+    color: #103254;
+    border-bottom: none;}
+  
+  .portfolio a:hover {
+    opacity: .8;}
+  
+  /*------------------- NAVIGATION ------------------*/
+  nav {
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 90%;
+    background-color: #fff;
+    padding: 1em 0;
+    font-size: 0.85em;}
+  
+  nav ul {
+    padding-right: 15vw;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;}
+    
+  
+  nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;}
+  
+  nav a:link {
+    color: #439ff6;}
+  
+  nav a:visited {
+    color: #439ff6;}
+  
+  nav a:hover {
+    border-bottom: none;
+    color: #103254;
+    transition: all 0.3s ease-in-out; } 
+    
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: left;
+    padding-right: 30vw;
+  }
+  
+  /* ------------------- IMAGES -------------------- */
+  img {
+    display: block;
+    margin: auto; 
+    max-width: 100%; }
